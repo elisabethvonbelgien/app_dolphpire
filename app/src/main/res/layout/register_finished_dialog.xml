@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:padding="5dp"
+    android:background="@drawable/bg_register_dialog"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/register_finish_title"
+        android:textAlignment="center"
+        android:textColor="@color/registerAccentColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/first_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_first_name_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/first_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/last_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_last_name_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/last_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/email"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_email_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/email"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/username"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_username_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/username"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/password"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_password_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/password"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/gender"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_gender_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/gender"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="@string/birthday"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/txt_birthday_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="serif"
+                android:text="@string/birthday"
+                android:textAlignment="textStart"
+                android:textColor="@color/registerAccentColor"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.49">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_auth_bg"
+                    android:text="@string/change_btn"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/registerPrimaryColor" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.02" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.49">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_auth_bg"
+                    android:text="@string/register_btn"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/registerPrimaryColor" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

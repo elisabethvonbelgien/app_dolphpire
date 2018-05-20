@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">DolphGram</string>
+
+    <string name="login_btn">Log In</string>
+    <string name="login_txt">Already Registered? Login Here!</string>
+    <string name="register_btn">Register</string>
+    <string name="change_btn">Change</string>
+    <string name="register_intro_btn">Let\'s begin!</string>
+    <string name="register_next_btn">Next</string>
+    <string name="register_txt">Don\'t have an account? Register Here!</string>
+    <string name="join_app_title">Join DolphGram</string>
+    <string name="join_app_details">We\'ll help you to create a new account in a few easy steps.</string>
+    <string name="error_network">Please check your connection</string>
+
+    <string name="email">E-mail</string>
+    <string name="email_exist">E-mail already exist</string>
+    <string name="email_login">Email or username</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="error_login_key">You aren\'t register!</string>
+    <string name="username">Username</string>
+    <string name="username_exist">Username already exist</string>
+    <string name="username_character">Invalid characters: @, |</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name_error">Please enter your first name</string>
+    <string name="last_name_error">Please enter your last name</string>
+    <string name="email_error">Please enter an email</string>
+    <string name="email_invalid_error">Please enter a valid email</string>
+    <string name="username_error">Please enter a username</string>
+    <string name="username_invalid_error">Between 4 and 40 alphanumeric characters</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="password_invalid_error">Between 6 and 50 alphanumeric characters</string>
+    <string name="password_confirm_error">Please enter a password</string>
+    <string name="password_confirm_invalid_error">Between 6 and 50 alphanumeric characters</string>
+    <string name="password_different_error">Passwords don\'t match.</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_title">Birthday format: DD/MM/YYYY</string>
+    <string name="birthday_format">%02d%02d%02d</string>
+    <string name="birthday_error">Please enter your birthday</string>
+    <string name="birthday_invalid_error">Invalid date format</string>
+    <string name="gender">Gender</string>
+    <string name="gender_title">Your gender:</string>
+    <string name="gender_error">Please choose your gender:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="register_finish_title">You\'re all set!\nLet\'s review your details:</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+
+    <style name="SplashScreen.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/appPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/appPrimaryDarkColor</item>
+        <item name="colorAccent">@color/appAccentColor</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="Login.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/loginPrimaryDarkColor</item>
+        <item name="colorAccent">@color/loginAccentColor</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="Register.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/registerPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/registerPrimaryDarkColor</item>
+        <item name="colorAccent">@color/registerAccentColor</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="Register.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/registerAccentColor</item>
+        <item name="android:textColorPrimary">@color/registerPrimaryColor</item>
+        <item name="android:background">@drawable/bg_register_dialog</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/appPrimaryDarkColor</item>
+        <item name="colorAccent">@color/appAccentColor</item>
+    </style>
+
+    <style name="LogInput.Theme" parent="@android:style/TextAppearance">
+        <item name="colorPrimary">@color/loginInputColor</item>
+        <item name="colorPrimaryDark">@color/loginInputColor</item>
+        <item name="colorAccent">@color/loginInputColor</item>
+        <item name="android:textColorPrimary">@color/loginInputColor</item>
+        <item name="android:textColorSecondary">@color/loginInputColor</item>
+        <item name="android:windowBackground">@color/loginInputColor</item>
+        <item name="android:textColorHint">@color/loginInputColor</item>
+        <item name="android:colorControlNormal">@color/loginInputColor</item>
+        <item name="android:colorControlActivated">@color/loginInputColor</item>
+    </style>
+
+    <style name="LogErrorInput.Theme" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/loginInputErrorColor</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColorHint">@color/loginInputErrorColor</item>
+        <item name="colorAccent">@color/loginInputErrorColor</item>
+        <item name="colorControlNormal">@color/loginInputErrorColor</item>
+        <item name="colorControlActivated">@color/loginInputErrorColor</item>
+    </style>
+
+    <style name="RegisterInput.Theme" parent="@android:style/TextAppearance">
+        <item name="colorPrimary">@color/registerInputColor</item>
+        <item name="colorPrimaryDark">@color/registerInputColor</item>
+        <item name="colorAccent">@color/registerInputColor</item>
+        <item name="android:textColorPrimary">@color/registerInputColor</item>
+        <item name="android:textColorSecondary">@color/registerInputColor</item>
+        <item name="android:windowBackground">@color/registerInputColor</item>
+        <item name="android:textColorHint">@color/registerInputColor</item>
+        <item name="android:colorControlNormal">@color/registerInputColor</item>
+        <item name="android:colorControlActivated">@color/registerInputColor</item>
+    </style>
+
+    <style name="RegisterErrorInput.Theme" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/registerInputErrorColor</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColorHint">@color/registerInputErrorColor</item>
+        <item name="colorAccent">@color/registerInputErrorColor</item>
+        <item name="colorControlNormal">@color/registerInputErrorColor</item>
+        <item name="colorControlActivated">@color/registerInputErrorColor</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="RegisterFinishedDialog.Theme" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/registerPrimaryColor</item>
+        <item name="android:textColorPrimary">@color/registerAccentColor</item>
+    </style>
+
+</resources>

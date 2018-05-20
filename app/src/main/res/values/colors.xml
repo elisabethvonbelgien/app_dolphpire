@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="appPrimaryColor">#9ABDEB</color>
+    <color name="appPrimaryDarkColor">#8AAAD3</color>
+    <color name="appAccentColor">#80F9B7</color>
+
+    <color name="loginPrimaryColor">#A1C4FD</color>
+    <color name="loginPrimaryDarkColor">#A1C4FD</color>
+    <color name="loginAccentColor">#FDFBFB</color>
+    <color name="loginGradientStart">#C2E9FB</color>
+    <color name="loginGradientEnd">#A1C4FD</color>
+    <color name="loginInputColor">#FDFBFB</color>
+    <color name="loginInputErrorColor">#F15F79</color>
+    <color name="loginTxtColor">#50627E</color>
+
+    <color name="registerPrimaryColor">#8f94fb</color>
+    <color name="registerPrimaryDarkColor">#8f94fb</color>
+    <color name="registerAccentColor">#FFFFFF</color>
+    <color name="registerGradientStart">#a8c0ff</color>
+    <color name="registerGradientEnd">#8f94fb</color>
+    <color name="registerInputColor">#FFFFFF</color>
+    <color name="registerInputErrorColor">#f94b76</color>
+    <color name="registerTxtColor">#6467af</color>
+
+    <color name="btnGradientStart">#FDFBFB</color>
+    <color name="btnGradientEnd">#EBEDEE</color>
+
+    <color name="verifiedGradientStart">#56ab2f</color>
+    <color name="verifiedGradientEnd">#a8e063</color>
+
+</resources>

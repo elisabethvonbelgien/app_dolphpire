@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994137595124",
+    "firebase_url": "https://dolphpire-social.firebaseio.com",
+    "project_id": "dolphpire-social",
+    "storage_bucket": "dolphpire-social.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994137595124:android:b29fbffd7a15bf0c",
+        "android_client_info": {
+          "package_name": "com.dolphpire.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994137595124-m8fu2uj454k6jst15j6rkc2shi4cfr6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dolphpire.social",
+            "certificate_hash": "d65e37eb572f9db51abd5439479b2013df8f2848"
+          }
+        },
+        {
+          "client_id": "994137595124-vcm10asvep6oq3fag7cbctkn7u78k31k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwqszpo7cvI6QNrVPfY5QLtaj1wgKw36M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994137595124-vcm10asvep6oq3fag7cbctkn7u78k31k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
