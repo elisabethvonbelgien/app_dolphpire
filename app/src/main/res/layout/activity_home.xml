@@ -11,6 +11,7 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
+<<<<<<< HEAD
    <!-- <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -45,3 +46,6 @@
     </RelativeLayout>-->
 
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> 7f4a7d1e373e9dd1e563c6c0c033e9b0e8bd9b45
