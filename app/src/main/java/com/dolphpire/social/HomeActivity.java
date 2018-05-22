@@ -151,19 +151,20 @@ public class HomeActivity extends AppCompatActivity {
 
                 int s= queryDocumentSnapshots.getDocuments().size();
 
+                List<Users> users=queryDocumentSnapshots.toObjects(Users.class);
+                list.addAll(users);
+
+              /*  for(int i=0; i<s;i++){
 
 
-                for(int i=0; i<s;i++){
 
 
-
-                    List<Users> users=queryDocumentSnapshots.toObjects(Users.class);
 
 
                     String name =users.get(i).getFirst_name();
                     String email=users.get(i).getEmail();
 
-                    list.addAll(users);
+
 
 
 
@@ -172,7 +173,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
-                }
+                }*/
 
                 mAdapter=new DataAdapter(list);
                 mResultList.setAdapter(mAdapter);
